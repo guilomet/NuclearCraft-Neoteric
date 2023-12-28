@@ -96,6 +96,8 @@ dependencies {
 
     implementation fg.deobf("curse.maven:cc-tweaked-282001:4630524")
 
+    implementation fg.deobf("curse.maven:immersiveengineering-231951:4780537")
+
     //implementation fg.deobf("curse.maven:kubejs-238086:4931520")
     //implementation fg.deobf("curse.maven:rhino-416294:4805925")
     //implementation fg.deobf("curse.maven:architectury-api-419699:4555749")

@@ -13,14 +13,32 @@ A complex nuclear engineering mod for Minecraft
 '''
 
 [[dependencies.nuclearcraft]]
-modId="forge" 
-mandatory=true 
-versionRange="[43,)" 
-ordering="NONE"
-side="BOTH"
+    modId="forge" 
+    mandatory=true 
+    versionRange="[43,)" 
+    ordering="NONE"
+    side="BOTH"
 [[dependencies.nuclearcraft]]
-modId="minecraft"
-mandatory=true
-versionRange="[1.19.2,)"
-ordering="NONE"
-side="BOTH"
+    modId="mekanism"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.nuclearcraft]]
+    modId="computercraft"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.nuclearcraft]]
+    modId="immersiveengineering"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.nuclearcraft]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.19.2,)"
+    ordering="NONE"
+    side="BOTH"
